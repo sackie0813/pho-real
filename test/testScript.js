@@ -2,6 +2,11 @@ var today= new Date();
 var bg = document.getElementById("dark-mode");
 var words = document.getElementsByClassName("dark-mode-word");
 
+
+// ---------------------------- Header -----------------------------------
+function animateMenu(x) {
+    x.classList.toggle("change");
+  }
 //-----------------------------Image gallery fn's ----------------------
 var imagesContainer = document.querySelector('.scrollable-images');
 var images = document.querySelectorAll('.scrollable-images img');

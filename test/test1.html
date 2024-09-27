@@ -10,7 +10,11 @@
 <body id="dark-mode">
     <div class="header"> 
         <img id = "logo" src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAB4CAMAAACATE3ZAAAAY1BMVEX///8AAAD8/PwEBAT39/fy8vLV1dUwMDDBwcHh4eHd3d3Q0NDGxsa2trZcXFwzMzN0dHSWlpZXV1dFRUWpqaloaGgWFhZ7e3s5OTmDg4Pq6uqMjIwqKiqenp4gICAlJSVPT0+Iz5jbAAADr0lEQVR4nO2aiXaqMBCGSUhAlmBYZRH1/Z/ykgVQi1Iqgfae+XoOtcc6kz+ZzExAywIAAAAAAAAAAAAAAAAAAAAAAAAAYHvw/+IVY2zRen277zyKK1ldS6ck206IGj5lzFvdMrbabMsAq8M2r5z1HWKLucSwECx/BF6bu268+mrIlWaImd7y0jr12alARX4w5MQrXGo+supDExUIocqRf66/0S2/RK0Jy8q6MIvrMD4iQZSZmzCSoktgwC7GOj0F7cmVKhBnxIAjDTkhlBiyj4nH8rJQKo6Vb8aLJu58xEbKrM+qCPUkslDhfpnW9tUlXuFlncjCckvIXYFxGCdnYdqWl+hgMKYk/kW4WmunKyt1mOV6HWxhvYydVay/c0xuyLZRaa234F6Wpxd0R9o3P6bSlbRbISHktI6XrtxVx1GBCKorDwdvJoWEyl3ziQ09PtKVOxc9ykCNgX5qahTeUazHB0K0lDqIb+Po9YsiEUXDTJJ6HgPvdCghH7hzWp4OO3tQgnhIxppomMPg9IdCiM/4ZRz7iJHm9iU0GRLLIiG6ffJYHBUTIrp+im162rSy0TVd9klMnUaVu68UeUC2vQuA7/YmW+CZhhnvC8X95lZrq2JqOx2yNxm3ZjTfQOjTHePp13iyVc5ApYiprW/J1Ol9jsne/q/MPd3Orl6Ek+TKTZwF5mFoFGKj80yHTcIm6ot2P/+PWyP2NqoaT+DoMcKPT/kSD10Frp329hxLw2+p6ZKoA9MeN/rq5ylNg4f61b/wM1XupqpFv6Y8MN2jv6H9OqrKf5xR6mfVdKF4mICYblbBp4ie51h0R6fMqcXkktoPsyp5p0J/Wte+3WRYXjk9vuLqlmXpXicbj3sd4n2XOzvGlOJQTET9zOCfuG3aT71iYotoJba6zolKGVXZdr+okjRvxvhag63fO1d97dtZhoX5zIS/UiirRuztPf6BnwmRSnK29+DvIfnCnd1TBfs0Iq/oVmSJEFsF1a3d9sD0HeL5vHQvRFxytvD4tQlsYUidxUMNUzduP8G5LpGRtr+h9k2Co/nh65iyo8NvjKme8Lsx1exz7vs2OJkX0ZGJmMK7F/B3dP3v1JG1jymRcLmph68r0k2xM7MYjbPx/akfIRJp8OJM0nHMGdYV/PdL6aJLpS57uGiSzN+/P18EPiSXx6W4pqf1v+qyCUHL+whLecMcVTL+0mpY+vmrhQmlnkcpHb499bdkAAAAAAAAAAAAAAAAAAAAAAAAAAAwzz/DGCCRvUwPKAAAAABJRU5ErkJggg==" alt = "Logo">
-        <button class = "dropbtn"> Menu <i class "fa fa-caret-down"></i></button>
+        <div class="dropdown-menu" onclick="animateMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
     </div>
 
     <!-- ######################### GALLERY #############################3-->
@@ -23,10 +27,6 @@
       <div class="centered-container">
         <div class="image-container">
           <div class="scrollable-images">
-              <img src="https://images.squarespace-cdn.com/content/v1/58f8da6cd1758e3d9a000926/1590933405095-CS76QNG50PO0P07SE711/Hasselblad+Xpan+Cinestill+Portra-7.jpg" alt="Caption here" >
-              <img src="https://shreyas-phaniraj-ebcf30.netlify.app/gallery/night_city.jpg" alt="Caption here" >
-              <img src="https://c4.wallpaperflare.com/wallpaper/114/1008/41/one-piece-monkey-d-luffy-hd-wallpaper-preview.jpg" alt="Zoro">
-              <img src="https://shreyas-phaniraj-ebcf30.netlify.app/gallery/Kollam_beach_1.webp" alt="Caption here">
               <img src="https://images.squarespace-cdn.com/content/v1/58f8da6cd1758e3d9a000926/1590933405095-CS76QNG50PO0P07SE711/Hasselblad+Xpan+Cinestill+Portra-7.jpg" alt="Caption here" >
               <img src="https://shreyas-phaniraj-ebcf30.netlify.app/gallery/night_city.jpg" alt="Caption here" >
               <img src="https://c4.wallpaperflare.com/wallpaper/114/1008/41/one-piece-monkey-d-luffy-hd-wallpaper-preview.jpg" alt="Zoro">
