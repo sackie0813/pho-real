@@ -1,12 +1,28 @@
-var today= new Date();
-var bg = document.getElementById("dark-mode");
-var words = document.getElementsByClassName("dark-mode-word");
+/* 
+let today= new Date();
+let bg = document.getElementById("dark-mode");
+let words = document.getElementsByClassName("dark-mode-word");
+*/
 
 
 // ---------------------------- Header -----------------------------------
 function animateMenu(x) {
     x.classList.toggle("change");
   }
+
+let navMenu = document.getElementById("nav-menu");
+let navButton = document.getElementById("menu-logo");
+let navOpen = false;
+navButton.addEventListener("click" , function() {
+  if (navOpen == false) {
+    navMenu.classList.add("open");
+    navOpen = true;
+  } else if (navOpen == true) {
+    navMenu.classList.remove("open");
+    navOpen = false;
+  }
+});
+
 //-----------------------------Image gallery fn's ----------------------
 var imagesContainer = document.querySelector('.scrollable-images');
 var images = document.querySelectorAll('.scrollable-images img');
@@ -19,7 +35,7 @@ var imageIndex = 0;
 function openModal(src, alt) {
   modal.style.display = 'block';
   modalImg.src = src;
-  captionText.innerHTML = alt;
+  captionText.textContent = alt;
 }
 
 function closeModal() {
