@@ -5,13 +5,114 @@ html {
     width:100%;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
-}
+*, *:before, *:after { box-sizing: inherit; }
 
 body {
     margin:0px;
     min-height:100%;
     width:100%;
-    border: solid 20px orange;
+    border: solid 20px rgba(255, 166, 0, 0.7);
+   
 }
+
+hr, h2, h3, h4 {
+    color:rgb(8, 37, 92);
+}
+
+hr { width:100%; }
+
+h2 { margin-bottom:1%; }
+
+h4, h3 { margin:0%; }
+
+.container > div {
+    width:85%;
+    justify-self: center;
+    text-align: center;
+}
+
+/* ################################## ITEM ################################*/
+.item {
+    width:100%;
+}
+
+.item-name {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.5%;
+    padding-bottom: 0%;
+}
+
+.item-desc {
+    padding: 0% 3.5%;
+    text-align: left;
+}
+
+/* ################################### ITEM ##############################*/
+
+/* ################################### SUBTITLE ##########################*/
+.subtitle {
+    font-family:'Dancing Script', cursive;
+    color:rgba(119, 149, 204, 0.719);
+
+}
+/* ################################### SUBTITLE ##########################*/
+
+/* ################################## SIDEBAR #############################*/
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+.change .bar2 {opacity: 0;}
+.change .bar3 {
+transform: translate(0, -11px) rotate(45deg);
+}
+/* ################################## SIDEBAR #############################*/
+
+/* ################################## DIVIDERS ############################*/
+.dividers {
+    color: rgb(158, 38, 38);
+    justify-self: center;
+    text-align: center;
+    width: 75%;
+    padding: 3%;
+    padding-bottom: 0%;
+}
+/* ################################## DIVIDERS #############################*/
+
+/* ################################# HEADER #################################*/
+.header {
+    padding:3%;
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+}
+
+#sidebar {
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    margin-left:12%;
+}
+
+#logo-image {
+    width:100%;
+    height:auto;
+    grid-column:3;
+    align-self:center;
+}
+/* ################################# HEADER #################################*/
+
+/* ################################# SIDES #################################*/
+#sides-warning {
+    margin-top:2%;
+}
+/* ################################# SIDES #################################*/

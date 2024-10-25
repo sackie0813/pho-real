@@ -4,28 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <script src = "script.js" defer></script>
     <title>Pho Real || Menu </title>
 </head>
 <body>
+
+
     <div class="header">
-        <button id = "menu-logo" onclick="animateMenu(this)">
+        <button id = "sidebar" onclick="animateMenu(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
-            <img src = "" alt = "Logo Image Goes Here">
         </button>
+        <img id = "logo-image" src = "https://images.squarespace-cdn.com/content/v1/5e44592cc9053c29286d8beb/1590515910822-YP5MSH23H3VU33B19UI5/Asset+1.png?format=500w" alt = "Logo Image Goes Here">
     </div>
-    <div class="shortcuts"></div>
-    <div class="menu-sides"></div>
-    <div class="menu-extra"></div>
-    <div class="menu-baguette"></div>
-    <div class="menu-com"></div>
-    <div class="menu-pho"></div>
-    <div class="menu-mains"></div>
-    <div class="menu-steam-rice"></div>
-    <div class="menu-fried-rice"></div>
-    <div class="menu-clay-pot"></div>
+
+
+    <div class="container">
+<!-- ######################################## SIDES ################################-->
+        <div class="dividers">
+            <hr>
+            <h1> SIDES </h1>
+            <hr>
+        </div>
+        <div class="menu-sides">
+            <h1 class = "subtitle"> Pasta </h1>
+            <h3 id = "sides-warning"> Please note that sides do not come with noodles</h4>
+            <div class = "item">
+                <div class = "item-name">
+                    <h2> NAME OF ITEM </h2>
+                    <h2> 20 </h2>
+                </div>
+                <div class = "item-desc">
+                    <h3> sweet and tangy </h3>
+                    <h4>Don Papa rum, amaretto, calamansi, tamarind syrup, egg whites </h4>
+                    <h4>*contains nuts </h4>
+                </div>
+            </div>
+            <div class = "item">
+                <div class = "item-name">
+                    <h2> CARBONARA </h2>
+                    <h2> 26 </h2>
+                </div>
+                <div class = "item-desc">
+                    <h3> sweet and tangy </h3>
+                    <h4>Don Papa rum, amaretto, calamansi, tamarind syrup, egg whites </h4>
+                    <h4>*contains nuts </h4>
+                </div>
+            </div>      
+            <div class = "item">
+                <div class = "item-name">
+                    <h2> SPAGHETTI </h2>
+                    <h2> 17 </h2>
+                </div>
+                <div class = "item-desc">
+                    <h3> salty and sour </h3>
+                    <h4> eggs, flour, salt, tamarind syrup </h4>
+                </div>
+            </div>
+            <div class = "item">
+                <div class = "item-name">
+                    <h2> CHELSEY </h2>
+                    <h2> 0 </h2>
+                </div>
+                <div class = "item-desc">
+                    <h3> sweet and tangy </h3>
+                    <h4>Don Papa rum, amaretto, calamansi, tamarind syrup, egg whites </h4>
+                    <h4>*contains nuts </h4>
+                </div>
+            </div>
+        </div>
+<!-- #################################### SIDES ####################################-->
+<!-- #################################### EXTRAS ####################################-->
+        <div class="dividers">
+            <hr>
+            <h1>EXTRA</h1>
+            <hr>
+        </div>
+
+        <div class="menu-extra">
+            <h1 class = "subtitle">Random</h1>
+            <div class = "item">
+                <div class = "item-name">
+                    <h2> BANH MI </h2>
+                    <h2> 11 </h2>
+                </div>
+                <div class = "item-desc">
+                    <h3> sweet and tangy </h3>
+                    <h4>Don Papa rum, amaretto, calamansi, tamarind syrup, egg whites </h4>
+                    <h4>*contains nuts </h4>
+                </div>
+            </div>
+        </div>
+<!-- ################################## EXTRAS ####################################-->
+
+
+
+    </div>
+    
+<!--
+        <div class="menu-extra"></div>
+        <div class="menu-baguette"></div>
+        <div class="menu-com"></div>
+        <div class="menu-pho"></div>
+        <div class="menu-mains"></div>
+        <div class="menu-steam-rice"></div>
+        <div class="menu-fried-rice"></div>
+        <div class="menu-clay-pot"></div>
+    </div>
+-->
         
 
 </body>
