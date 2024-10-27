@@ -43,6 +43,7 @@ h4, h3 { margin:0%; }
     overflow-x: hidden;
     transition: 0.5s;
 }
+
 #sidebar {
     display:grid;
     overflow-x: hidden;
@@ -55,6 +56,7 @@ h4, h3 { margin:0%; }
 }
 
 #sidebar > a {
+    margin-top:9.5%;
     font-size: 200%;
     align-self: center;
     display:block;
