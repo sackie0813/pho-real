@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pho Real || Our Story</title>
     <link rel="stylesheet" href="our-story.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <script src = "our-story.js" defer></script>
 </head>
 
@@ -51,10 +54,92 @@
         <h3 class = "example-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis voluptates minima veritatis excepturi iste sapiente aspernatur, soluta incidunt officia cum, ullam consequatur temporibus facere exercitationem consequuntur numquam expedita quod repellat?</h3>
     </div>
 
-    <div class="slideshow-gallery">
-        <div class="my-slide">
-           
 
+    <div class="clickable-gallery">
+
+        <div class="mySlides">
+            <div class="numbertext">1/6</div>
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3EXh30qW1eKZ1L8xhiGEp9McllGAWRPdfQ&s" style = "width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2/6</div>
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3EXh30qW1eKZ1L8xhiGEp9McllGAWRPdfQ&s" style = "width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3/6</div>
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3EXh30qW1eKZ1L8xhiGEp9McllGAWRPdfQ&s" style = "width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4/6</div>
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3EXh30qW1eKZ1L8xhiGEp9McllGAWRPdfQ&s" style = "width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5/6</div>
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3EXh30qW1eKZ1L8xhiGEp9McllGAWRPdfQ&s" style = "width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3/6</div>
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3EXh30qW1eKZ1L8xhiGEp9McllGAWRPdfQ&s" style = "width:100%">
+        </div>
+
+        <a class = "prev" onclick = "plusSlides(-1)"> &#10094</a>
+        <a class = "next" onclick = "plusSlides(1)">&#10095</a>
+
+          <!-- Image text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div class = "row">
+
+              <div class="column">
+                <img class="demo cursor" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3EXh30qW1eKZ1L8xhiGEp9McllGAWRPdfQ&s" style = "width:100%" onclick="currentSlide(1)" alt="The Woods">
+                </div>
+
+              <div class="column">
+                <img class="demo cursor" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3EXh30qW1eKZ1L8xhiGEp9McllGAWRPdfQ&s" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+              </div>
+
+              <div class="column">
+                <img class="demo cursor" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3EXh30qW1eKZ1L8xhiGEp9McllGAWRPdfQ&s" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+              </div>
+              
+              <div class="column">
+                <img class="demo cursor" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3EXh30qW1eKZ1L8xhiGEp9McllGAWRPdfQ&s" style="width:100%" onclick="currentSlide(3)" alt="Cat1">
+              </div>
+
+              <div class="column">
+                <img class="demo cursor" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3EXh30qW1eKZ1L8xhiGEp9McllGAWRPdfQ&s" style="width:100%" onclick="currentSlide(3)" alt="Cat2">
+              </div>
+
+              <div class="column">
+                <img class="demo cursor" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3EXh30qW1eKZ1L8xhiGEp9McllGAWRPdfQ&s" style="width:100%" onclick="currentSlide(3)" alt="Cat3">
+              </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="footer">
+        <h4 id = "footer-established">EST. 1995 SAIGON, VIETNAM</h4>
+        <img id = "footer-logo" src = "https://images.squarespace-cdn.com/content/v1/5e44592cc9053c29286d8beb/1590515910822-YP5MSH23H3VU33B19UI5/Asset+1.png?format=500w">
+        <h1 id = "footer-world-famous">"WORLD FAMOUS" VIETNAMESE STREET FOOD</h1>
+        <h4 id = "footer-info">1046 COMMERCIAL DRIVE, VANCOUVER, B.C</h4>
+        <h2 id = "footer-phone-number">TEL. 604-559-5938</h2>
+        <div class="links">
+            <a href = "" id = "footer-instagram-link">
+                <img class = "sm-img" src = "../our-story/images/instagram-logo.png" alt = "Instagram Link">
+            </a>
+            <a href = "" id = "footer-facebook-link" >
+                <img id = "facebook-img" class = "sm-img" src = "../our-story/images/facebook-logo.png" alt = "Facebook Link">
+            </a>
         </div>
     </div>
     
