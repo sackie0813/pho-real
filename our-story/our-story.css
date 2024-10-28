@@ -1,0 +1,115 @@
+
+html {
+    box-sizing: border-box;
+    margin:0px;
+    height:300%;
+    width:100%;
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+    margin:0px;
+    min-height:100%;
+    width:100%;
+    border: solid 10px rgba(255, 166, 0, 0.7);
+}
+
+#bar1, #bar2, #bar3 {
+    width: 30px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+.change #bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+.change #bar2 {opacity: 0;}
+.change #bar3 {
+transform: translate(0, -11px) rotate(45deg);
+}
+
+.header {
+    padding:3%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+@media (max-width:710px) {
+    .header {
+        padding-top:20px;
+    }
+    #hamburger {
+        top:5%;
+        left:5%;
+    };
+}
+
+#hamburger {
+    left:0%;
+    position:absolute;
+    z-index: 2;
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    margin-left:12%;
+}
+
+#logo-image {
+    width:40%;
+    height:auto;
+    grid-column:3;
+    align-self:center;
+}
+
+#overlay {
+    background-color: rgb(45, 45, 126);
+    height: 100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    left:0;
+    top:0;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+#sidebar {
+    display:grid;
+    overflow-x: hidden;
+    position:absolute;
+    width:100%;
+    height:100%;
+    right:0;
+    text-align: right;
+    grid-template-rows: 1fr 1fr 1fr 1fr 4fr;
+}
+
+#sidebar > a {
+    margin-top:9.5%;
+    font-size: 200%;
+    align-self: center;
+    display:block;
+    color:white;
+    text-decoration: none;
+    margin-right:8%;
+}
+/* #################### COPIED ###################### */
+
+/* #################### CONTAINER #################### */
+
+
+
+
+/* #################### CONTAINER #################### */
+
+
+
+
+
+
