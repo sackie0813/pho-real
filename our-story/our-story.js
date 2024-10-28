@@ -39,10 +39,13 @@ function plusSlides(n) {
     showSlides(slideIndex += n);
 }
 
+/* Checks current slide */
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 
+
+/* Function to show current slide, & caption, & demo image*/
 function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("mySlides");
