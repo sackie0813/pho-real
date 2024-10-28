@@ -15,11 +15,14 @@ navButton.addEventListener("click" , function() {
   overlayOpen = !overlayOpen;
   if (overlayOpen) {
     navMenu.style.width = "100%";
+    navMenu.style.overflowX="hidden";
+    document.body.style.overflow="hidden";
     barOne.style.backgroundColor = "white";
     barTwo.style.backgroundColor="white";
     barThree.style.backgroundColor="white";
   } else {
     navMenu.style.width = "0%";
+    document.body.style.overflow="";
     barOne.style.backgroundColor="#333";
     barTwo.style.backgroundColor="#333";
     barThree.style.backgroundColor="#333";
